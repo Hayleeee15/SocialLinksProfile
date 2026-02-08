@@ -1,6 +1,7 @@
 body {
     background-color: hsl(0, 0%, 8%);
-    font-family: 'inter', sans-serif;
+    font-family: 'Inter', sans-serif;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,10 +17,10 @@ p {
 main{
     background-color: hsl(0, 0%, 12%);
     color: hsl(0, 0%, 100%);
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px; 
     text-align: center;
-    width: 225px;
+    width: 250px;
 }
 
 img {
@@ -36,15 +37,18 @@ h3 {
     margin-top: 0px;
 }
 
-main a {
+nav a {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 20%);
-    padding: 5px 20%;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
     border-radius: 5px;
 }
 
-main a:hover {
+nav a:hover {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
 }
