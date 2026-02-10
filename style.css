@@ -1,67 +1,88 @@
+:root {
+    --bg-hover-color: hsl(0, 0%, 8%);
+    --card-color: hsl(0, 0%, 12%);
+    --main-font-color: hsl(0, 0%, 100%);
+    --location-hover-color: hsl(75, 94%, 57%);
+    --nav-color: hsl(0, 0%, 20%);
+}
+
 body {
-    background-color: hsl(0, 0%, 8%);
+    background-color: var(--bg-hover-color);
     font-family: 'Inter', sans-serif;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 97vh;
 }
 
 p {
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 400;
 }
 
 main{
-    background-color: hsl(0, 0%, 12%);
-    color: hsl(0, 0%, 100%);
-    padding: 30px;
-    border-radius: 10px; 
+    background-color: var(--card-color);
+    color: var(--main-font-color);
+    padding: 1.875rem;
+    border-radius: 0.625rem; 
     text-align: center;
-    width: 250px;
+    width: 18.75rem;
 }
 
 img {
     border-radius: 50%;
-    width: 75px;
+    width: 5.5rem;
+    margin-top: 1.25rem;
 }
 
-h3 {
-    margin-bottom: 5px;
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.3125rem;
 }
 
-.green {
-    color: hsl(75, 94%, 57%);
-    margin-top: 0px;
+.location {
+    color: var(--location-hover-color);
+    margin-top: 0rem;
+    margin-bottom: 1.875rem;
+}
+
+.description {
+    margin-bottom: 1.25rem;    
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 nav a {
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(0, 0%, 20%);
+    color: var(--main-font-color);
+    background-color: var(--nav-color);
 
     display: flex;
     justify-content: center;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 0.625rem;
+    margin: .75rem;
+    border-radius: 0.3125rem;
 }
 
 nav a:hover {
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 8%);
+    background-color: var(--location-hover-color);
+    color: var(--bg-hover-color);
 }
 
 
 footer { 
-    color: hsl(0, 0%, 20%);
-    font-size: 11px; 
+    color: var(--nav-color);
+    font-size: 0.625rem; 
     text-align: center;
     position: absolute;
-    bottom: 10px; 
+    bottom: 0.625rem; 
 }
 
 footer a { 
-    color: hsl(75, 94%, 57%); 
+    color: var(--location-hover-color); 
 }
