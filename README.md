@@ -1,5 +1,30 @@
-A simple "Social Links Profile" Card
+# Social Links Profile 🚀
 
-When hovering over the "links" the display changes color
+## Overview
+This is a simple Social Links Profile page with a hover affect on links (none active)
 
-Includes a root selector in the CSS
+### Built With
+🔴 Semantic HTML
+
+🔴 CSS Custom Properties
+
+🔴 CSS Flex
+
+🔴 "Clickable" Link
+
+### Preview
+
+<div align="left">
+  <div>
+    <b>Mobile Design:</b>
+  </div>
+  <div>
+    <img src="./images/SocialLinks-mobile.png" alt="Mobile Preview" width="250"><br>
+  </div>
+  <div>
+    <b>Desktop Design:</b>
+  </div>
+  <div>
+    <img src="./images/SocialLinks-desktop.png" alt="Desktop Preview" width="500"><br>
+  </div>
+</div>
